@@ -7,3 +7,4 @@
 *.iml
 *.idea
 **/logging.txt
+**/META-INF/persistence.xml
