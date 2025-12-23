@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+    <!-- Definieren der Persistence Unit für die Test-DB -->
+    <persistence-unit name="test-persistence-unit" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Registrierung der Entity-Klassen -->
+        <class>ch.hslu.swde.wda.domain.City</class>
+        <class>ch.hslu.swde.wda.domain.WeatherData</class>
+        <class>ch.hslu.swde.wda.domain.Employee</class>
+
+        <!-- JPA-Eigenschaften -->
+        <properties>
+            <!-- Datenbankverbindung -->
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://win-004.swde.ls.eee.intern:5432/wda_g01_db_test"/>
+            <property name="jakarta.persistence.jdbc.user" value="swde_user_g01"/>
+            <property name="jakarta.persistence.jdbc.password" value="pwd_g01_ajd3"/>
+            
+            <!-- Eclipselink Table Generator -->
+            <property name="eclipselink.ddl-generation.output-mode"
+                      value="database"/>
+            <property name="eclipselink.ddl-generation"
+                      value="create-tables"/>
+
+            <!-- JPA-Provider (z. B. Hibernate) -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- Optionen: create, create-drop, update -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="prod-persistence-unit" transaction-type="RESOURCE_LOCAL">
+        <class>ch.hslu.swde.wda.domain.City</class>
+        <class>ch.hslu.swde.wda.domain.WeatherData</class>
+        <class>ch.hslu.swde.wda.domain.Employee</class>
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://win-004.swde.ls.eee.intern:5432/wda_g01_db"/>
+            <property name="jakarta.persistence.jdbc.user" value="swde_user_g01"/>
+            <property name="jakarta.persistence.jdbc.password" value="pwd_g01_ajd3"/>
+
+            <!-- Eclipselink Table Generator -->
+            <property name="eclipselink.ddl-generation.output-mode"
+                      value="database"/>
+            <property name="eclipselink.ddl-generation"
+                      value="create-tables"/>
+
+            <!-- JPA-Provider (z. B. Hibernate) -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- Optionen: create, create-drop, update -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

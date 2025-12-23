@@ -1,0 +1,137 @@
+[ {
+  "id" : 108333,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1023.0,
+  "humidity" : 40.0,
+  "currentTemperature" : 7.0,
+  "weatherSummary" : "Clear",
+  "weatherDescription" : "clear sky",
+  "windDirection" : 302,
+  "windSpeed" : 1.12,
+  "lastUpdateTime" : [ 2024, 12, 1, 14, 16, 22 ]
+}, {
+  "id" : 108571,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1026.0,
+  "humidity" : 43.0,
+  "currentTemperature" : 0.0,
+  "weatherSummary" : "Clouds",
+  "weatherDescription" : "few clouds",
+  "windDirection" : 305,
+  "windSpeed" : 2.01,
+  "lastUpdateTime" : [ 2024, 12, 1, 15, 46, 24 ]
+}, {
+  "id" : 108604,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1024.0,
+  "humidity" : 43.0,
+  "currentTemperature" : 6.0,
+  "weatherSummary" : "Clouds",
+  "weatherDescription" : "few clouds",
+  "windDirection" : 312,
+  "windSpeed" : 1.71,
+  "lastUpdateTime" : [ 2024, 12, 1, 15, 16, 24 ]
+}, {
+  "id" : 108991,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1023.0,
+  "humidity" : 39.0,
+  "currentTemperature" : 6.0,
+  "weatherSummary" : "Clouds",
+  "weatherDescription" : "broken clouds",
+  "windDirection" : 295,
+  "windSpeed" : 1.09,
+  "lastUpdateTime" : [ 2024, 12, 1, 12, 46, 21 ]
+}, {
+  "id" : 109035,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1024.0,
+  "humidity" : 46.0,
+  "currentTemperature" : 2.0,
+  "weatherSummary" : "Clouds",
+  "weatherDescription" : "broken clouds",
+  "windDirection" : 292,
+  "windSpeed" : 1.22,
+  "lastUpdateTime" : [ 2024, 12, 1, 12, 16, 20 ]
+}, {
+  "id" : 109508,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1023.0,
+  "humidity" : 36.0,
+  "currentTemperature" : 7.0,
+  "weatherSummary" : "Clear",
+  "weatherDescription" : "clear sky",
+  "windDirection" : 302,
+  "windSpeed" : 1.12,
+  "lastUpdateTime" : [ 2024, 12, 1, 13, 46, 22 ]
+}, {
+  "id" : 111022,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1023.0,
+  "humidity" : 41.0,
+  "currentTemperature" : 6.0,
+  "weatherSummary" : "Clouds",
+  "weatherDescription" : "broken clouds",
+  "windDirection" : 295,
+  "windSpeed" : 1.09,
+  "lastUpdateTime" : [ 2024, 12, 1, 13, 16, 21 ]
+}, {
+  "id" : 111029,
+  "city" : {
+    "zipCode" : 6490,
+    "stationID" : 2661750,
+    "name" : "Andermatt",
+    "latitude" : 0.0,
+    "longitude" : 8.5939
+  },
+  "pressure" : 1024.0,
+  "humidity" : 41.0,
+  "currentTemperature" : 7.0,
+  "weatherSummary" : "Clouds",
+  "weatherDescription" : "few clouds",
+  "windDirection" : 312,
+  "windSpeed" : 1.71,
+  "lastUpdateTime" : [ 2024, 12, 1, 14, 46, 23 ]
+} ]
